@@ -6,7 +6,7 @@ import TokenTable from "./TokenTable";
 import DexTicker from "../DexTicker";
 
 //API Key
-const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
+const API_KEY = "ckey_9d55c9caa3d34ca78d2acc8d9ee";
 
 function Tokens() {
   const [items, setItems] = useState([]);
