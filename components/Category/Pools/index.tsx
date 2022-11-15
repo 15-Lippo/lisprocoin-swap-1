@@ -6,7 +6,7 @@ import PoolTable from "./PoolTable";
 import DexTicker from "../DexTicker";
 
 //API Key
-const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
+const API_KEY = "ckey_9d55c9caa3d34ca78d2acc8d9ee";
 
 function Pools() {
   const [items, setItems] = useState([]);
@@ -69,23 +69,23 @@ function Pools() {
 export default Pools;
 
 //Pools
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/pools/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/pools/?quote-currency=USD&format=JSON&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 // supported DEXes
-//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 //pools by address
-//https://api.covalenthq.com/v1/1/xy=k/sushiswap/pools/address/0xdAC17F958D2ee523a2206206994597C13D831ec7/?quote-currency=USD&format=JSON&tickers=usdt&page-number=10&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/1/xy=k/sushiswap/pools/address/0xD0355200111C2B21AAbC1a31552eCCDc5d4E905d/?quote-currency=USD&format=JSON&tickers=usdt&page-number=10&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 //Summary overview
 
 // health data
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/health/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/health/?quote-currency=USD&format=JSON&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 //ecosystem chart data
-//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/ecosystem/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/1/xy=k/uniswap_v2/ecosystem/?quote-currency=USD&format=JSON&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 // supported DEXes
-//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_4e73d56514984838ab3206fbaf4
+//https://api.covalenthq.com/v1/xy=k/supported_dexes/?quote-currency=USD&format=JSON&key=ckey_9d55c9caa3d34ca78d2acc8d9ee
 
 //xy=k is a generalized Uniswap-like endpoints for exchanges on various chains.
