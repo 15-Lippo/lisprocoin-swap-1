@@ -4,7 +4,7 @@ import { Box, Flex, useColorModeValue, Text } from "@chakra-ui/react";
 import Ticker from "react-ticker";
 
 //API Key
-const API_KEY = "ckey_4e73d56514984838ab3206fbaf4";
+const API_KEY = "ckey_9d55c9caa3d34ca78d2acc8d9ee";
 //const API_KEY = process.env["API_KEY"];
 
 function DexTicker() {
