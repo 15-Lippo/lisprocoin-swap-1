@@ -15,6 +15,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 
+import { BsCurrencyBitcoin } from "react-icons/bs";
 import { GiWallet } from "react-icons/gi";
 import { FiMenu } from "react-icons/fi";
 import { GiTwoCoins } from "react-icons/gi";
@@ -86,7 +87,7 @@ export default function VerticalNarbar() {
       {...props}
     >
       <Flex justifyContent="center" my="8">
-        <Image width={120} src="/multifylogo.png" alt="dexdash logo" />
+        <Image width={120} src="/Lisprocoin logo.png" alt="dexdash logo" />
       </Flex>
 
       <Flex
@@ -124,7 +125,7 @@ export default function VerticalNarbar() {
         </Box>
         <NavItem icon={GiWallet}>
           <Link href="/walletanalyse">
-            <Text>Wallet Analytics</Text>
+            <Text>Transactions</Text>
           </Link>
         </NavItem>
         <NavItem icon={RiExchangeDollarFill}>
@@ -132,11 +133,11 @@ export default function VerticalNarbar() {
             <Text>Swap</Text>
           </Link>
         </NavItem>
-        {/* <NavItem icon={GiSuspensionBridge}>
-          <Link href="/bridgeinterface">
-            <Text>Bridge</Text>
+        <NavItem icon={BsCurrencyBitcoin}>
+          <Link href="/transak">
+            <Text>Buy Crypto</Text>
           </Link>
-        </NavItem> */}
+        </NavItem>
       </Flex>
       <DarkModeButton />
       <SocialMediaButton />
